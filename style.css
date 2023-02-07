@@ -1,24 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
 
 * {
-padding:0;
-margin:0;
-vertical-align:baseline;
-list-style:none;
-border:0
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
 }
 
-html, body {
-    overflow: hidden;
-   }
+.bg-dividido {
+    background: rgb(255,246,223);
+    background: linear-gradient(90deg, rgba(255,246,223,1) 50%, rgba(242,160,6,1) 50%);
+  }
 
-.logoConversor{
-    width: 50%;
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.amareloClaro-bg {
     background-color: #FFF5DF;
 }
 
-.imgLogoConversor{
-    padding: 20px 0 0 40px
+.amarelo-bg {
+    background-color: #F2A005;
+}
+
+.amareloClaro-text {
+    color: #FFF5DF;
+}
+
+.amarelo-text {
+    color: #F2A005;
 }
 
 .containerdivisao{
@@ -32,9 +44,7 @@ html, body {
 
 .containerLEsquerdo{
     width: 50%;
-    background-color: #FFF5DF;
     font-size: 40px;
-    color: #F2A005;
     display: flex;
     align-content: center;
     align-items: center;
@@ -48,13 +58,10 @@ html, body {
     justify-content: center;
 }
 
-
 .opcoesLE{
     font-size: 40px;
     font-family: 'Nunito', sans-serif;
-    background-color: #F2A005;
     border-radius: 10px;
-    color: #FFF5DF;
     height: 60px;
     margin-left: 20px;
 }
@@ -70,30 +77,21 @@ html, body {
 
 .inputLE{
     font-size: 50px;
-    color: #F2A005;
     border: none;
     border-bottom: 2px solid #F2A005;
-    background-color: #FFF5DF;
-    font-family: 'Nunito', sans-serif;
 }
 
 .botaoConverter{
     font-size: 20px;
-    font-family: 'Nunito', sans-serif;
-    background-color: #F2A005;
     border-radius: 5px;
     padding: 10px;
-    color: #FFF5DF;
 }
-
 
 /* ----------------------------------------- */
 
 .containerLDireito{
     width: 50%;
-    background-color: #F2A005;
     font-size: 40px;
-    color: #FFF5DF;
     display: flex;
     align-content: center;
     align-items: center;
@@ -110,10 +108,7 @@ html, body {
 
 .opcoesLD{
     font-size: 40px;
-    font-family: 'Nunito', sans-serif;
-    background-color: #FFF5DF;
     border-radius: 10px;
-    color: #F2A005;
     height: 60px;
     margin-left: 20px;
 }
@@ -130,22 +125,6 @@ html, body {
 
 .inputLD{
     font-size: 50px;
-    color: #FFF5DF;
     border: none;
     border-bottom: 2px solid #FFF5DF;
-    background-color: #F2A005;
-    font-family: 'Nunito', sans-serif;
-}
-
-.rodape{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    border: 2px solid black;
-
-}
-
-.logoSambia{
-    width: 40px;
-    border: 2px solid green;
 }

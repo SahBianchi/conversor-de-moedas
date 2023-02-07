@@ -10,63 +10,63 @@
     <title>Conversor de Moedas</title>
 </head>
 <body>
-    <header>
+    <header class="bg-dividido">
         <div>
             <img src="./src/header.png" alt="">
         </div>
     </header>
 
-    <main>
+    <main class="bg-dividido">
         <div class="containerdivisao">
 
-            <div class="containerLEsquerdo">
+            <div class="containerLEsquerdo ">
                 <div class="containerOpcoesLE">
                     <p>Digite o valor em</p>
-                    <select value="moeda" class="opcoesLE" id="opcaoMoedaLE" onChange="converter()">
+                    <select value="moeda" class="opcoesLE amarelo-bg amareloClaro-text" id="opcaoMoedaLE" onChange="converter()">
     
-                        <option value="real" id="moedaRealLE" class="opcoesLE" selected>Real</option>
+                        <option value="real" id="moedaRealLE" class="opcoesLE amarelo-bg amareloClaro-text" selected>Real</option>
     
-                        <option value="euro" id="moedaEuroLE" class="opcoesLE">Euro</option>
+                        <option value="euro" id="moedaEuroLE" class="opcoesLE amarelo-bg amareloClaro-text">Euro</option>
     
-                        <option value="dolar" id="moedaDolarLE" class="opcoesLE">Dólar</option>
+                        <option value="dolar" id="moedaDolarLE" class="opcoesLE amarelo-bg amareloClaro-text">Dólar</option>
     
                     </select>
                 </div>
                     
                     
                 <div class="formConversaoLE">
-                    <p id="txtMoedaLE"></p>
+                    <p id="txtMoedaLE">R$</p>
                     <form>
-                        <input type="text" class="inputLE" id="valorConverter">
-                        <button class="botaoConverter" onclick="converter()">Converter</button>
+                        <input type="text" class="inputLE amareloClaro-bg amarelo-text" id="valorConverter">
+                        <button class="botaoConverter amarelo-bg amareloClaro-text" id="botaoConverter">Converter</button>
                     </form>
                 </div>
             </div>
     
-            <div class="containerLDireito">
+            <div class="containerLDireito ">
                 <div class="containerOpcoesLD">
                     <p>Esse é o valor em</p>
-                    <select value="moeda" class="opcoesLD" id="opcaoMoedaLD" onChange="converter()">
+                    <select value="moeda" class="opcoesLD amareloClaro-bg amarelo-text" id="opcaoMoedaLD" onChange="converter()">
     
-                        <option value="real" id="moedaRealLD" class="opcoesLD" >Real</option>
+                        <option value="real" id="moedaRealLD" class="opcoesLD amareloClaro-bg amarelo-text" >Real</option>
     
-                        <option value="euro" id="moedaEuroLD" class="opcoesLD">Euro</option>
+                        <option value="euro" id="moedaEuroLD" class="opcoesLD amareloClaro-bg amarelo-text">Euro</option>
     
-                        <option value="dolar" id="moedaDolarLD" class="opcoesLD" selected>Dólar</option>
+                        <option value="dolar" id="moedaDolarLD" class="opcoesLD amareloClaro-bg amarelo-text" selected>Dólar</option>
                     </select>
                 </div>
                     
                     
                 <div class="formConversaoLD">
-                    <p id="txtMoedaLD"></p>
-                    <p class="inputLD" id="valorConvertido"></p>
+                    <p id="txtMoedaLD">UDS</p>
+                    <p class="inputLD amarelo-bg amareloClaro-text" id="valorConvertido"></p>
                 </div>
             </div>
     
         </div>
     </main>
     
-    <footer>
+    <footer class="bg-dividido">
 
         <p>Layout feito por <a href="https://github.com/luizguilherme4" target="_blank"> Luiz Guilherme</a></p>
         <p>Desenvolvimento feito por <a href="https://github.com/SahBianchi" target="_blank"> Samantha Bianchi</a></p>

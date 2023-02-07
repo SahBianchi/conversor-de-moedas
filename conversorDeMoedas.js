@@ -76,4 +76,9 @@ function converter(){
     }
 }
 
-converter()
+const btnConverter = document.getElementById('botaoConverter')
+
+btnConverter.addEventListener('click', (e)=>{
+    converter()
+    e.preventDefault()
+})
