@@ -6,15 +6,25 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.bg-dividido {
-    background: rgb(255,246,223);
-    background: linear-gradient(90deg, rgba(255,246,223,1) 50%, rgba(242,160,6,1) 50%);
-  }
-
-main {
-    width: 100vw;
+/* A class bd-dividido esta no site inteiro, então é melhor deixar no body */
+body{
+    width: 100%;
     height: 100vh;
+    background: rgb(255,246,223);
+    background: linear-gradient(45deg, rgba(255,246,223,1) 50%, rgba(242,160,6,1) 50%);
+}
+/* O Header precisa de uma altura limite */
+header{
+    height: 30px;
+}
+
+/* A main e a class containerdivisao tem a mesma função, então deixei só a main mesmo */
+main {
+    width: 100%;
+    /* O que ta em pixels é a soma da altura do header e do footer, então se alterar a altura de um deles é só mudar o valor que ta em px */
+    height: calc(100vh - 80px);
     display: flex;
+    flex-direction: row;
 }
 
 .amareloClaro-bg {
@@ -31,13 +41,6 @@ main {
 
 .amarelo-text {
     color: #F2A005;
-}
-
-.containerdivisao{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
 }
 
 /* ----------------------------------------- */
@@ -127,4 +130,19 @@ main {
     font-size: 50px;
     border: none;
     border-bottom: 2px solid #FFF5DF;
+}
+
+/* ----------------------------------------- */
+
+
+/* O footer precisa de um limite de altura tambem */
+footer{
+    height: 50px;
+    display: flex;
+}
+
+/* A imagem é muito grande, então delimitei uma altura pra ela, mas pode alterar se quiser */
+footer img{
+    width: 20px;
+    height: 20px;
 }
