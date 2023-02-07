@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+* {
+padding:0;
+margin:0;
+vertical-align:baseline;
+list-style:none;
+border:0
+}
+
+html, body {
+    overflow: hidden;
+   }
+
+.logoConversor{
+    width: 50%;
+    background-color: #FFF5DF;
+}
+
+.imgLogoConversor{
+    padding: 20px 0 0 40px
+}
+
+.containerdivisao{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+/* ----------------------------------------- */
+
+.containerLEsquerdo{
+    width: 50%;
+    background-color: #FFF5DF;
+    font-size: 40px;
+    color: #F2A005;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containerOpcoesLE{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.opcoesLE{
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #F2A005;
+    border-radius: 10px;
+    color: #FFF5DF;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.formConversaoLE{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.inputLE{
+    font-size: 50px;
+    color: #F2A005;
+    border: none;
+    border-bottom: 2px solid #F2A005;
+    background-color: #FFF5DF;
+    font-family: 'Nunito', sans-serif;
+}
+
+.botaoConverter{
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #F2A005;
+    border-radius: 5px;
+    padding: 10px;
+    color: #FFF5DF;
+}
+
+
+/* ----------------------------------------- */
+
+.containerLDireito{
+    width: 50%;
+    background-color: #F2A005;
+    font-size: 40px;
+    color: #FFF5DF;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containerOpcoesLD{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.opcoesLD{
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #FFF5DF;
+    border-radius: 10px;
+    color: #F2A005;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.formConversaoLD{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 50px;
+}
+
+
+.inputLD{
+    font-size: 50px;
+    color: #FFF5DF;
+    border: none;
+    border-bottom: 2px solid #FFF5DF;
+    background-color: #F2A005;
+    font-family: 'Nunito', sans-serif;
+}
+
+.rodape{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+
+}
+
+.logoSambia{
+    width: 40px;
+    border: 2px solid green;
+}

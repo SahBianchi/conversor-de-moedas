@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="./src/header.png" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div class="containerdivisao">
+
+            <div class="containerLEsquerdo">
+                <div class="containerOpcoesLE">
+                    <p>Digite o valor em</p>
+                    <select value="moeda" class="opcoesLE" id="opcaoMoedaLE" onChange="converter()">
+    
+                        <option value="real" id="moedaRealLE" class="opcoesLE" selected>Real</option>
+    
+                        <option value="euro" id="moedaEuroLE" class="opcoesLE">Euro</option>
+    
+                        <option value="dolar" id="moedaDolarLE" class="opcoesLE">Dólar</option>
+    
+                    </select>
+                </div>
+                    
+                    
+                <div class="formConversaoLE">
+                    <p id="txtMoedaLE"></p>
+                    <form>
+                        <input type="text" class="inputLE" id="valorConverter">
+                        <button class="botaoConverter" onclick="converter()">Converter</button>
+                    </form>
+                </div>
+            </div>
+    
+            <div class="containerLDireito">
+                <div class="containerOpcoesLD">
+                    <p>Esse é o valor em</p>
+                    <select value="moeda" class="opcoesLD" id="opcaoMoedaLD" onChange="converter()">
+    
+                        <option value="real" id="moedaRealLD" class="opcoesLD" >Real</option>
+    
+                        <option value="euro" id="moedaEuroLD" class="opcoesLD">Euro</option>
+    
+                        <option value="dolar" id="moedaDolarLD" class="opcoesLD" selected>Dólar</option>
+                    </select>
+                </div>
+                    
+                    
+                <div class="formConversaoLD">
+                    <p id="txtMoedaLD"></p>
+                    <p class="inputLD" id="valorConvertido"></p>
+                </div>
+            </div>
+    
+        </div>
+    </main>
+    
+    <footer>
+
+        <p>Layout feito por <a href="https://github.com/luizguilherme4" target="_blank"> Luiz Guilherme</a></p>
+        <p>Desenvolvimento feito por <a href="https://github.com/SahBianchi" target="_blank"> Samantha Bianchi</a></p>
+        <img src="./src/logoSamPB.png" alt="">
+
+    </footer>
+
+    <script src="conversorDeMoedas.js"></script>
+
+</body>
+</html>
