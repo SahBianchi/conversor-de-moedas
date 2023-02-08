@@ -5,22 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="shortcut icon" href="./src/favicon.svg" type="image/x-icon">
+
     <link rel="stylesheet" href="style.css">
 
     <title>Conversor de Moedas</title>
 </head>
 <body>
-    <header class="bg-dividido">
-        <div>
+    <header>
+        <div class="containerLogoProjeto">
             <img src="./src/header.png" alt="">
         </div>
     </header>
 
-    <main class="bg-dividido">
-        <div class="containerdivisao">
+    <main >
 
             <div class="containerLEsquerdo ">
-                <div class="containerOpcoesLE">
+                <div class="containerOpcoesLE amarelo-text">
                     <p>Digite o valor em</p>
                     <select value="moeda" class="opcoesLE amarelo-bg amareloClaro-text" id="opcaoMoedaLE" onChange="converter()">
     
@@ -34,7 +35,7 @@
                 </div>
                     
                     
-                <div class="formConversaoLE">
+                <div class="formConversaoLE amarelo-text">
                     <p id="txtMoedaLE">R$</p>
                     <form>
                         <input type="text" class="inputLE amareloClaro-bg amarelo-text" id="valorConverter">
@@ -44,7 +45,7 @@
             </div>
     
             <div class="containerLDireito ">
-                <div class="containerOpcoesLD">
+                <div class="containerOpcoesLD amareloClaro-text">
                     <p>Esse é o valor em</p>
                     <select value="moeda" class="opcoesLD amareloClaro-bg amarelo-text" id="opcaoMoedaLD" onChange="converter()">
     
@@ -57,20 +58,27 @@
                 </div>
                     
                     
-                <div class="formConversaoLD">
+                <div class="formConversaoLD amareloClaro-text">
                     <p id="txtMoedaLD">UDS</p>
                     <p class="inputLD amarelo-bg amareloClaro-text" id="valorConvertido"></p>
                 </div>
             </div>
     
-        </div>
     </main>
     
-    <footer class="bg-dividido">
+    <footer class="amareloClaro-text ">
 
-        <p>Layout feito por <a href="https://github.com/luizguilherme4" target="_blank"> Luiz Guilherme</a></p>
-        <p>Desenvolvimento feito por <a href="https://github.com/SahBianchi" target="_blank"> Samantha Bianchi</a></p>
-        <img src="./src/logoSamPB.png" alt="">
+        <p>Layout feito por <a href="https://www.linkedin.com/in/luiz-guilherme-474b85145/" target="_blank" class="vinho-text"> Luiz Guilherme</a></p>
+        <div class="containerSam">
+            <div>
+
+                <p>Desenvolvimento feito por <a href="https://www.linkedin.com/in/sahbianchi/" target="_blank" class="vinho-text"> Samantha Bianchi</a></p>
+            </div>
+            
+            <div class="containerLogo">
+                <img src="./src/logo-Samf.png" alt="" class="logoSam">
+            </div>
+        </div>
 
     </footer>
 
